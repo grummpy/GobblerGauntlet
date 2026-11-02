@@ -1,0 +1,13 @@
+{
+  "name": "gobbler-gauntlet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Four-turkey farm obstacle race. Vanilla canvas game, no build step.",
+  "scripts": {
+    "start": "python3 server.py",
+    "test": "node --test tests/"
+    "smoke": "python3 tests/server_smoke.py"
+  },
+  "license": "MIT"
+}
